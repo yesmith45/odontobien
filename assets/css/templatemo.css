@@ -144,24 +144,52 @@ body, ul, li, p, a, label, input, div {
 .leaflet-control a, .leaflet-control { font-size: 10px !important;}
 .form-control { border: 1px solid #e8e8e8;}
 /* Footer */
-#tempaltemo_footer a { color: #dcdde1;}
-#tempaltemo_footer a:hover { color: #68bb7d;}
-#tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
+#tempaltemo_footer {
+    background-color: #000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+#tempaltemo_footer a {
+    color: #68bb7d; /* Enlaces en verde suave */
+}
+
+#tempaltemo_footer a:hover {
+    color: #f0ab7c; /* Enlaces al pasar el mouse en un tono salmón */
+}
+
+#tempaltemo_footer ul.footer-link-list li {
+    padding-top: 10px;
+}
+
 #tempaltemo_footer ul.footer-icons li {
-  width: 2.6em;
-  height: 2.6em;
-  line-height: 2.6em;
+    width: 2.6em;
+    height: 2.6em;
+    line-height: 2.6em;
+    background-color: #ffffff; /* Fondo inicial de íconos blanco */
+    text-align: center;
+    border-radius: 50%; /* Íconos redondos */
+    transition: 0.5s;
 }
+
 #tempaltemo_footer ul.footer-icons li:hover {
-  background-color: #000;
-  transition: .5s;
+    background-color: #68bb7d; /* Fondo verde suave al pasar el mouse */
 }
+
 #tempaltemo_footer ul.footer-icons li:hover i {
-  color: #f0ab7c;
-  transition: .5s;
+    color: #f0ab7c; /* Íconos cambian a salmón */
+    transition: 0.5s;
 }
-#tempaltemo_footer .border-light { border-color: #2d343f !important;}
-/*
+
+#tempaltemo_footer i {
+    color: #000; /* Íconos en negro inicial */
+}
+
+#tempaltemo_footer .border-light {
+    border-color: #ffffff !important; /* Bordes blancos */
+}
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 */
