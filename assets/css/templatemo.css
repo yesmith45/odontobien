@@ -33,7 +33,7 @@ Table of contents
 /* Typography */
 body, ul, li, p, a, label, input, div {
  font-family: 'Playfair Display', sans-serif;
- color: #4a4a4a;    /* Un tono ligeramente más claro que el*/
+ color: #008b8b;    /* Un tono ligeramente más claro que el*/
   font-size: 18px !important;
   font-weight: 300 !important;
 }
