@@ -43,7 +43,7 @@ body, ul, li, p, a, label, input, div {
     font-size: 2.8em;
     text-transform: uppercase;
     text-align: left; /* Título alineado a la izquierda */
-    color: #008b8b; /* Verde elegante */
+    color: #000; /* Verde elegante */
 }
 .h2 {
   font-family: 'Raleway', sans-serif;
