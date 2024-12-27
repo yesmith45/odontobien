@@ -265,3 +265,50 @@ button {
   font-size: 1em;
   cursor: pointer;
 }
+/* Personalización del contenedor del carrusel */
+.container {
+    max-width: 800px;
+    margin: auto;
+    border: 3px solid #008b8b; /* Color turquesa oscuro */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Imágenes del carrusel */
+.carousel-inner img {
+    border-radius: 15px;
+    height: 400px; /* Ajusta el tamaño según tus imágenes */
+    object-fit: cover; /* Mantiene el recorte centrado */
+}
+
+/* Estilo del texto */
+.carousel-caption h5 {
+    background-color: rgba(0, 139, 139, 0.7); /* Fondo semitransparente */
+    color: #ffffff; /* Texto blanco */
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente negro */
+    color: #ffffff; /* Texto blanco */
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Botones del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Cambia el color de los íconos a blanco */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 139, 139, 0.2); /* Fondo al pasar el cursor */
+    border-radius: 50%;
+}
+
